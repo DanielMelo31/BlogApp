@@ -3,7 +3,6 @@ package com.example.blogapp.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.blogapp.R
-import com.example.blogapp.databinding.FragmentHomeScreenBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
