@@ -5,15 +5,34 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Succes" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="59a16572-c944-4209-a7c3-ebd9efd66a41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/blogapp/domain/HomeScreenRepo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/blogapp/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/blogapp/ui/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/blogapp/ui/home/HomeScreenFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/blogapp/ui/home/HomeScreenFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_screen.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +51,8 @@
         <option value="navigationResourceFile" />
         <option value="Kotlin Data Class" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -48,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhotoFirebase" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -134,7 +155,22 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1231" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1617137640099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1231" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617137640099" />
     <state x="1219" y="311" width="541" height="417" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1614989961727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,25 +183,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1020" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614992092292" />
-    <state width="916" height="279" key="GridCell.Tab.0.bottom" timestamp="1614989901247">
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1617139017783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614989901247" />
-    <state width="916" height="279" key="GridCell.Tab.0.center" timestamp="1614989901246">
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617139017783" />
+    <state width="913" height="239" key="GridCell.Tab.0.bottom" timestamp="1617075639418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614989901246" />
-    <state width="916" height="279" key="GridCell.Tab.0.left" timestamp="1614989901246">
+    <state width="913" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617075639418" />
+    <state width="913" height="239" key="GridCell.Tab.0.center" timestamp="1617075639418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614989901246" />
-    <state width="916" height="279" key="GridCell.Tab.0.right" timestamp="1614989901246">
+    <state width="913" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617075639418" />
+    <state width="913" height="239" key="GridCell.Tab.0.left" timestamp="1617075639418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614989901246" />
+    <state width="913" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617075639418" />
+    <state width="913" height="239" key="GridCell.Tab.0.right" timestamp="1617075639418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="913" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617075639418" />
+    <state width="498" height="448" key="SwitcherDM" timestamp="1617132935163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="448" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1617132935163" />
     <state x="1096" y="242" key="run.anything.popup" timestamp="1614987663003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614987663003" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1617138742100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617138742100" />
   </component>
 </project>
