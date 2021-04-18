@@ -1,11 +1,10 @@
-package com.example.blogapp.data.remote
+package com.example.blogapp.data.remote.home
 
 import android.util.Log
 import com.example.blogapp.core.Resource
 import com.example.blogapp.data.Post
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
-import kotlin.math.log
 
 class HomeScreenDataSource {
     suspend fun getLastPost(): Resource<List<Post>>{
