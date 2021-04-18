@@ -1,12 +1,11 @@
 package com.example.blogapp.presentation
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.liveData
 import com.example.blogapp.core.Resource
 import com.example.blogapp.data.Post
-import com.example.blogapp.domain.HomeScreenRepo
+import com.example.blogapp.domain.home.HomeScreenRepo
 import kotlinx.coroutines.Dispatchers
 import java.lang.Exception
 

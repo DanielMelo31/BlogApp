@@ -7,7 +7,7 @@
     android:layout_marginHorizontal="16dp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.LoginFragment">
+    tools:context=".ui.auth.LoginFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="16"
-            android:inputType="textEmailAddress" />
+            android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -44,8 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:backgroundTint="@color/ligth_blue"
-        android:text="SingIn"
+        android:text="@string/singin"
         android:textAllCaps="false" />
 
     <ProgressBar
